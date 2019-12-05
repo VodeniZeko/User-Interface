@@ -71,53 +71,30 @@ hr {
 	width: 82%;
 }
 .navigation {
-    width: 100%;
-    height: 10vh;
+	width: 100%;
+	height: 10vh;
+	padding-top: 3%;
+	text-align: center;
 }
 
 .list {
-float: left;
-width: 69%;
-text-align: center;
-padding-left: 7%;
-padding-top: 3%;
+	width: 69%;
+	text-align: center;
+	display: inline-block;
 }
 
 .list a {
-margin: 0% 2% 0% 2%;
-font-size: 1.3em;
-opacity: 0.6; 
- filter: alpha(opacity = 60);
- cursor: pointer;
+	margin: 0% 3% 0% 3%;
+	font-size: 1.3em;
+	opacity: 0.6; 
+	 filter: alpha(opacity = 60);
+	 cursor: pointer;
 }
 
 .logo {
-	float: right;
 	width: 28;
-	padding-top: 2.2%;
-	padding-right: 15%;
+	display: inline-block;
 }
-/*nav {
-    width: 100%;
-    text-align: center;
-    height: 100%;
-    padding-top: 3%;
-    line-height: 2px;
-}*/
-/* nav a {
- 	margin: 20px;
- 	padding-top: 10%;
- 	line-height: 
- }*/
-
-/* div .img {
- 	display: inline-block;
- 	width:42%;
- 	float: right;
- 	margin: -2.3%;
- 	padding-left: 12%;
- }*/
-
 
 .intro, .info, .middle-img {
 	margin:0 auto;
@@ -126,46 +103,47 @@ opacity: 0.6;
 }
 
 h1 {
-	font-size: 5em;
+	font-size: 6em;
 	text-align: center;
 }
 
 button {
-margin-left: 37%;
-border-radius: 1px;
-font-size: 1.5em;
-padding: 2px 20px 2px 20px;
-border:1px solid black;
+	border-radius: 1px;
+	font-size: 1.3em;
+	padding: 7px 55px 7px 55px;
+	border:1px solid black;
+	margin-left: 25%;
 }
 
 .inovation {
      width: 45%;
     height: 400px;
-    float: left;
-    padding-left:15%;
+	display: inline-block;
+	padding-left: 15%;
+	margin-bottom: 5%;
  }
 
 .code {
-    width: 55%;
+    width: 45%;
     height: 400px;
-    float: right;
+   display: inline-block;
     padding-left: 15%;
-
-   /* padding-left: 380px;*/
+     margin-bottom: 5%;
 }
 
 .info-one {
      width: 45%;
     height: 100px;
-    float: left;
     padding-left: 10%;
+    display: inline-block;
+
 }
 
 .info-two {
 	width: 45%;
     height: 100px;
-    float: right;
-    padding-right: 10%;
+   display: inline-block;
+   padding-left: 3%;
 }
 
 .img {
@@ -179,12 +157,12 @@ div .info-2 {
 }
 
 .info-service, .info-product, .info-vision {
-	float: left;
 	height: 150px;
 	width: 30%;
 	padding: 0% 0% 0% 9%;
 	padding-top: 3%;
 	margin-bottom: 4%;
+	display: inline-block;
 }
 
 .contact {
